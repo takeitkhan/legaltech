@@ -1,0 +1,44 @@
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 4%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px 4px 10px;
+    transition: all 0.3s ease;
+    color: white;
+    background: #77787A;
+    font-size: 16px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+/* Style the social media icons with color, if you want */
+
+.icon-bar a.facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.icon-bar a.twitter:hover  {
+    background: #55ACEE;
+    color: white;
+}
+
+.icon-bar a.instagram:hover  {
+    background: #dd4b39;
+    color: white;
+}
+
+.icon-bar a.linkedin:hover  {
+    background: #007bb5;
+    color: white;
+}

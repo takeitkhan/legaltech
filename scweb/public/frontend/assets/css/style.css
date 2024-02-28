@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #82A93C;
+    --secondary-color: #E5E6E7;
+    --shadow-sm: 0px 0px 5px black;
+    --shadow-md: 0px 0px 6px black;
+    --shadow-lg: 4px 4px 10px black;
+    --primary-transition: all 0.4s ease-in-out;
+    --secondary-transition: all 0.2s ease-in-out;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top : 30px;
+}
+/* ==== Global ==== */
+.container-fluid{
+    padding: 0 8.5rem;
+}
+.margin-top-bottom{
+    margin: 70px 0;
+}
+.hero-img img{
+    border: 5px solid #D2D2D2;
+}
+/* ====End Global ==== */
+
+/*======Main menu going here=====*/
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navbar ul li a{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.main-navbar ul li button ion-icon{
+    font-size: 22px;
+}
+.main-navbar ul li a:hover{
+    color: var(--primary-color);
+    transition: var(--secondary-transition);
+}
+
+.main-navbar ul li button.btn:active{
+    border: none !important;
+}
+
+/*======End Main menu here=====*/
+
+/*======Hero here=====*/
+
+.hero-tag{
+    border-left: 7px solid var(--primary-color);
+}
+.hero-tag h1{
+    font-weight: bold;
+}
+.hero-description{
+    border-left: 7px solid #969AA6;
+}
+.hero-description p{
+    font-weight: 300;
+}
+.request-consultation {
+    background: var(--primary-color);
+    border-radius: 7px;
+    font-size: 16px;
+}
+.request-consultation:hover{
+    background: var(--primary-color);
+}
+
+.hero-right {
+    width: 100%;
+    background: #EBEBEB;
+    /* border-radius: 2.7rem 0 0 2.7rem; */
+    border-radius: 2.7rem;
+    padding: 0px 0px 2.7rem 8rem;
+}
+.hero img {
+    margin: -30px 0 0 0;
+    width: 400px;
+}
+/*======End Hero here=====*/
+
+/*======Statistics percentage going here=====*/
+#statistics-percentage-area{
+    background: #ECEDED;
+}
+.single-percentage{
+    height: 140px;
+    width: 140px;
+    background: white;
+    border-radius: 100%;
+    border-bottom: 3px solid var(--primary-color);
+    border-right: 3px solid var(--primary-color);
+    border-left: 3px solid var(--primary-color);
+}
+.middle-circle {
+    height: 74%;
+    width: 74%;
+    background: white;
+    border-radius: 100%;
+    box-shadow: var(--shadow-lg);
+}
+.middle-circle span:nth-child(1){
+    font-size: 28px;
+    font-weight: 300;
+}
+.middle-circle span:nth-child(2){
+    font-size: 12px;
+}
+/*======End statistics percentage here=====*/
+/*======Contact=====*/
+.contact-box{
+    background: #D2D2D2;
+    border-radius: 10px;
+}
+.contact_accept label a{
+    color: black;
+}
+/*======End Contact here=====*/
+/*======About Us=====*/
+.about-content{
+    text-align: center;
+}
+
+.about-content h1{
+    margin: 40px 0;
+    font-weight: bold;
+}
+/*======End About Us here=====*/
+
+/*======Services=====*/
+.single-service{
+    background: #E5E6E7;
+    border-radius: 1rem;
+    margin: 40px 0;
+    padding: 30px 15px;
+    box-shadow: var(--shadow-md);
+}
+.single-service:hover{
+    background: var(--primary-color);
+    color: white;
+    transition: var(--primary-transition);
+}
+.middle{
+    height: 1350px;
+    width: 8px;
+    background: gray;
+}
+/*======End Services =====*/
+
+
+/* ===Blogs==== */
+/*======About Us=====*/
+.blog-header{
+    text-align: center;
+}
+
+.blog-header h1{
+    margin: 40px 0;
+    font-weight: bold;
+}
+.single-blog .img-area a figure img{
+    width: 400px;
+}
+
+.single-blog .img-area a figure figcaption{
+    color: var(--primary-color);
+}
+
+.single-blog .link a{
+    color: var(--primary-color);
+    font-weight: bold;
+    border: 1px solid var(--primary-color);
+}
+
+.single-blog .link a:hover{
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+.content-area .title a{
+    color: black;
+}
+
+.content-area .title a:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.blog-area .category-list{
+    width: 400px !important;
+}
+
+.blog-area .category-list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-area .category-list ul li{
+    padding: 10px 0px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.blog-area .category-list ul li a{
+    color: black;
+}
+
+
+.blog-area .category-list ul li a:hover{
+    color: var(--primary-color);
+}
+/*======End About Us here=====*/
+/* ===End Blogs==== */
+
+
+/*======Team=====*/
+.team-middle{
+    height: 500px;
+    width: 8px;
+    background: gray;
+}
+.single-member{
+    background: #E5E6E7;
+    border-radius: 1rem;
+    margin: 40px 0;
+    padding: 30px 15px;
+}
+.single-member:hover{
+    background: var(--primary-color);
+    color: white;
+    transition: var(--primary-transition);
+}
+.single-member .member-img{
+    margin-left: -30px;
+}
+.single-member .member-img img{
+    width: 220px;
+}
+.single-member .member-img .team-member-shadow{
+    box-shadow: var(--shadow-sm);
+}
+/*======End Team=====*/
+
+
+/*======Footer=====*/
+#footer-area{
+    background: var(--secondary-color);
+    padding: 20px 10px;
+    border-radius: 35px 35px 0px 0px;
+}
+footer .icon{
+    font-size: 40px;
+}
+/*======End Footer=====*/
